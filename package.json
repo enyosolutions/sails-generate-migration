@@ -1,6 +1,6 @@
 {
-  "name": "@enyosolutions/sails-generate-migration",
-  "version": "1.0.0",
+  "name": "sails-generate-migration",
+  "version": "1.1.0",
   "description": "sails generate a migration file",
   "main": "index.js",
   "scripts": {

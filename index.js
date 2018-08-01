@@ -87,6 +87,7 @@ module.exports = {
     // Then the file is copied into the specified destination (on the left).
     // ```
     './resources/db/migrations/:filename': { template: 'migration.ejs' },
+    './.migrate.lock': {},
     // ```
     //
     // • See https://sailsjs.com/docs/concepts/extending-sails/generators for more documentation.
