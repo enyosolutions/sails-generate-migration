@@ -1,4 +1,4 @@
-# @faou/sails-generate-migration
+# sails-generate-migration
 
 A `migration` generator for use with the Sails command-line interface.
 
@@ -6,7 +6,7 @@ A `migration` generator for use with the Sails command-line interface.
 ## Installation
 
 ```sh
-$ npm install @faou/sails-generate-migration --save
+$ npm install sails-generate-migration --save
 ```
 
 Then merge the following into your `.sailsrc` file:
@@ -14,12 +14,12 @@ Then merge the following into your `.sailsrc` file:
 ```json
 {
   "modules": {
-    "migration": "@faou/sails-generate-migration"
+    "migration": "sails-generate-migration"
   }
 }
 ```
 
-> Note that instead of `"@faou/sails-generate-migration"`, you can also choose to provide the path to the generator locally (e.g. "./generators/migration").
+> Note that instead of `"sails-generate-migration"`, you can also choose to provide the path to the generator locally (e.g. "./generators/migration").
 > This is useful if, for example, you have specific best practices for particular projects or teams within your organization, and you want to be able to check in generators to your code repository.
 >
 > Certain generators are installed by default in Sails, but they can be overridden.  Other generators add support for generating entirely new kinds of things.
